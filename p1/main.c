@@ -7,7 +7,7 @@ int main(void) {
     char *p = nullptr;
     char *q = nullptr;
 
-    char max='\0;   // 가장 많이 나타난 문자를 저장할 변수
+    char max='\0';   // 가장 많이 나타난 문자를 저장할 변수
 
     int maxcnt = 0;   // max의 빈도수를 저장할 변수
 
