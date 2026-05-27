@@ -15,15 +15,26 @@ int main(void) {
         scanf("%d", p);
     }
 
+
     for (q = b; q < b + N; q++) {
         scanf("%d", q);
     }
 
+    
     p = a;
+
+    
     q = b + N - 1;
 
+   
     while (p < a + N) {
-        printf("%d ", *p + *q);
+
+       
+        if (p == a + N - 1)
+            printf("%d", *p + *q);
+        else
+            printf("%d ", *p + *q);
+
         p++;
         q--;
     }
